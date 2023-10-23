@@ -7,6 +7,6 @@ g++ client.cpp sha1.cpp -o c
 ./c 127.0.0.1:5634 tracker_info.txt
 
 Piece Selection Algorithm:
-Selecting chunks in round robin fashion from the available seeders.
+Rarest First
 
 
